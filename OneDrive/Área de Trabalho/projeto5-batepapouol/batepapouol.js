@@ -76,10 +76,10 @@ function renderizar() {
 
         }
         else if (escopo.to === "Todos") {
-            texto.innerHTML += `      <div class="linhas-normal2"> <div class="texto mensagem-normal2 "> <p> (${escopo.time})  <strong>${escopo.from}</strong> para <strong> ${escopo.to}</strong> : ${escopo.text}  </p> </div> </div>`
+            texto.innerHTML += `      <div class="linhas-normal2"> <div class="texto mensagem-normal2 "> <p> (${escopo.time})  <strong>${escopo.from}</strong> para <strong> ${escopo.to}</strong>: ${escopo.text}  </p> </div> </div>`
         }
         else if (escopo.to !== "Todos") {
-            texto.innerHTML += `      <div class="linhas-reservadamente"> <div class="texto reservadamente "> <p> (${escopo.time})  <strong>${escopo.from}</strong> reservadamente para <strong>${escopo.to}</strong> : ${escopo.text}  </p> </div> </div>`
+            texto.innerHTML += `      <div class="linhas-reservadamente"> <div class="texto reservadamente "> <p> (${escopo.time})  <strong>${escopo.from}</strong> reservadamente para <strong>${escopo.to}</strong>: ${escopo.text}  </p> </div> </div>`
         }
     }
 
