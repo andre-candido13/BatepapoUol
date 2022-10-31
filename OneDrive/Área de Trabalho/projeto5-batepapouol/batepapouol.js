@@ -115,7 +115,7 @@ function input () {
     let text = document.querySelector(".envio").value 
     console.log(text)
     let to = "Todos";
-    let type = "message"
+    let type = "message";
     
     teste = {from: nome, to:to, text:text, type:type}
     enviarMsg()
