@@ -83,12 +83,9 @@ espaco2 {
     display: flex;
   
     width: 375px;
-
     min-height: 40px;
     max-height: auto;
-  
     box-sizing: border-box;
-   
     word-break: break-word;
     text-align: start;
     border-radius: 2px;
