@@ -1,0 +1,146 @@
+
+.container {
+ 
+    margin-top: 30px;
+
+    width: 375px;
+    height: 800px;
+    background-color: #e5e5e5;
+  
+}
+
+.caixa-topo {
+    
+    width: 375px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 26px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.05);
+    background-color: #ffffff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    
+}
+
+.simbolo-esquerda {
+  padding-left: 22px;
+
+}
+
+
+.simbolo-direita {
+padding-left: 213.41px;
+
+}
+
+.espaco {
+    width: 375px;
+    height: 16px;
+    background-color: #e5e5e5;
+}
+
+espaco2 {
+    width: 375px;
+    height: 242px;
+    background-color: #e5e5e5;
+}
+
+
+.linhas-normal {
+    display: flex;
+   
+    align-content: center;
+    background-color:  #dcdcdc; 
+    width: 375px;
+    min-height: 40px;
+    max-height: auto;
+    box-sizing: border-box;
+    margin-bottom: 4px;
+    word-break: break-word;
+    text-align: start;
+    border-radius: 2px;
+}
+
+.linhas-reservadamente {
+    background-color: #ffdede;
+    display: flex;
+ 
+    width: 375px;
+    margin-bottom: 4px;
+    min-height: 40px;
+    max-height: auto;
+    box-sizing: border-box;
+   
+    word-break: break-word;
+    text-align: start;
+    border-radius: 2px;
+}
+
+
+.linhas-normal2 {
+    background-color: #ffffff;
+    display: flex;
+  
+    width: 375px;
+
+    min-height: 40px;
+    max-height: auto;
+  
+    box-sizing: border-box;
+   
+    word-break: break-word;
+    text-align: start;
+    border-radius: 2px;
+}
+
+
+.caixa-inferior {
+    background-color: #ffffff;
+    width: 375px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+   
+    position: fixed;
+    left: 0;
+    bottom: 0;
+}
+
+ion-icon {
+    width: 26px;
+    height: 26px;
+    padding-left: 169px;
+
+}
+
+.caixa-mensagens {
+    margin-top: 0px;
+}
+
+footer input {
+    position: relative;
+   
+    border: none;
+    text-align: left;
+    height: 80px;
+    width: 375px;
+
+}
+
+.finalizar {
+
+padding-bottom: 93px;
+}
+
+input::placeholder {
+    font-style: italic;
+    color: #000000;
+}
+
+.aviao {
+    position: absolute;
+    right: 17px;
+    bottom: 24px;
+}
