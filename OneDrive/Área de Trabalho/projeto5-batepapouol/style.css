@@ -2,7 +2,6 @@
 .container {
  
     margin-top: 30px;
-
     width: 375px;
     height: 800px;
     background-color: #e5e5e5;
@@ -11,7 +10,7 @@
 
 .caixa-topo {
     
-    width: 375px;
+    width: 383px;
     height: 80px;
     display: flex;
     align-items: center;
@@ -98,7 +97,7 @@ espaco2 {
 
 .caixa-inferior {
     background-color: #ffffff;
-    width: 375px;
+    width: 383px;
     height: 80px;
     display: flex;
     align-items: center;
